@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "keywords": [
     "three.js",
+    "trackball camera"
   ],
   "scripts": [
     "index.js"
