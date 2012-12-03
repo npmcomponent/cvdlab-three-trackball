@@ -1,4 +1,7 @@
 {
+  "name": "three-trackball",
+  "description": "three.js trackball component",
+  "version": "0.1.0",
   "maintainers": [ 
     {
       "name": "Enrico Marino",
@@ -9,9 +12,6 @@
       "email": "federico.spini@gmail.com"
     }
   ],
-  "name": "three-trackball",
-  "description": "three.js trackball component",
-  "version": "0.2.0",
   "homepage": "https://github.com/cvdlab/three-trackball",
   "repository": {
     "type": "git",
