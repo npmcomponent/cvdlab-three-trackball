@@ -11,7 +11,7 @@
     "index.js"
   ],
   "dependencies": {
-    "cvdlab/three-trackball": "*"
+    "cvdlab/three": "*"
   },
   "license": "MIT"
 }
