@@ -210,8 +210,8 @@ module.exports = function (object, scene, domElement) {
     _this.object.up = resetUp.clone();
     _this.object.matrix = resetMatrix.clone();
     light.matrix = resetMatrix.clone();
-    _this.object.rotation.setRotationFromMatrix(_this.object.matrix);
-    light.rotation.setRotationFromMatrix(light.matrix);
+    _this.object.rotation.setEulerFromRotationMatrix(_this.object.matrix);
+    light.rotation.setEulerFromRotationMatrix(light.matrix);
 
     _this.target = new THREE.Vector3();
     _eye = new THREE.Vector3();
