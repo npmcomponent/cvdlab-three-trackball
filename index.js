@@ -1,7 +1,6 @@
 var THREE = require('three');
 
-exports.EnhancedTrackballLightControls = 
-THREE.EnhancedTrackballLightControls = function (object, scene, domElement) {
+module.exports = function (object, scene, domElement) {
 
   steady = object;
 
