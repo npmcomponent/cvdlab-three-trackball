@@ -1,4 +1,4 @@
-var THREE = require('three');
+var THREE = require('cvdlab-three');
 
 module.exports = function (object, scene, domElement) {
 

@@ -1,25 +1,13 @@
 {
-  "name": "three-trackball",
-  "description": "three.js trackball component",
+  "name": "cvdlab-three-trackball",
+  "description": "Three.js trackball component",
   "version": "0.1.0",
-  "maintainers": [ 
-    {
-      "name": "Enrico Marino",
-      "email": "enrico.marino@email.com"
-    },
-    {
-      "name": "Federico Spini",
-      "email": "federico.spini@gmail.com"
-    }
+  "keywords": [
+    "three.js",
+    "trackball camera"
   ],
-  "homepage": "https://github.com/cvdlab/three-trackball",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cvdlab/three-trackball.git"
+  "dependencies": {
+    "cvdlab-three": "git://github.com/npmcomponent/cvdlab-three.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "devDependencies": {}
+  "license": "MIT"
 }
